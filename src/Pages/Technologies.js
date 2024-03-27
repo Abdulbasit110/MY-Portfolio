@@ -17,6 +17,8 @@ function Technologies() {
     npm,
     postman,
     figma,
+    firebase,
+    next,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -37,6 +39,8 @@ function Technologies() {
         <img src={tailwind} title="Tailwind CSS" alt="" />
         <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={sass} title="SASS" alt="" />
+        <img src={next} title="NEXT JS" alt="" />
+        <img src={firebase} title="FIREBASE" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -47,9 +51,9 @@ function Technologies() {
         <img src={vscode} title="Visual Studio Code" alt="" />
         <img src={git} title="Git" alt="Git" />
         <img src={github} title="Github" alt="Github" />
-        <img src={figma} title="Figma" alt="Figma" />
+        {/* <img src={figma} title="Figma" alt="Figma" /> */}
         <img src={npm} title="NPM" alt="NPM" />
-        <img src={postman} title="Postman" alt="Postman" />
+        {/* <img src={postman} title="Postman" alt="Postman" /> */}
       </section>
     </main>
   );
