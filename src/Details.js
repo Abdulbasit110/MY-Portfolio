@@ -45,10 +45,10 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/abdul-basit-231204255/",
+  github: "https://github.com/Abdulbasit110",
+  // twitter: "https://twitter.com/",
+  // instagram: "https://www.instagram.com/",
 };
 
 // Enter your Work Experience here

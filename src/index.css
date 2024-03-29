@@ -25,3 +25,7 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+#particles canvas {
+  z-index: -1;
+  position: absolute;
+}
