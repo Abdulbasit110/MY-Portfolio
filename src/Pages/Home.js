@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import { motion } from "framer-motion";
+import { fadeInVariants } from "../Variants";
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -47,7 +49,7 @@ function Home() {
         myimageref.current,
         {
           x: "200%",
-          delay: 0.5,
+          delay: 0.1,
           opacity: 0,
           duration: 1,
           ease: "Power3.easeOut",
@@ -58,33 +60,35 @@ function Home() {
 
   return (
     <main className="container mx-auto max-width section md:flex justify-between items-center">
-      <div>
-        <h1
-          ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
-        >
+      <motion.div
+        variants={fadeInVariants("left", 0.5)}
+        initial="initial"
+        animate="animate"
+      >
+        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Hi,👋<br></br>My Name is<br></br>
         </h1>
-        <h1
-          ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
-        >
+        <h1 className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           {name}
         </h1>
-        <h2
-          ref={h13}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
-        >
+        <h2 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           {tagline}
         </h2>
-      </div>
+      </motion.div>
       <div className="mt-5 md:mt-0">
-        <img
+        {/* <img
           ref={myimageref}
           className="w-1/2 md:ml-auto rounded-full bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
           src={img}
           alt="ABDUL BASIT"
-        />
+        /> */}
+
+        <motion.div
+          class="blob"
+          variants={fadeInVariants("right", 0.5)}
+          initial="initial"
+          animate="animate"
+        ></motion.div>
       </div>
     </main>
   );
