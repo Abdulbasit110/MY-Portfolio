@@ -1,5 +1,7 @@
 import React from "react";
 import { techStackDetails } from "../Details";
+import { motion } from "framer-motion";
+import { fadeInVariants } from "../Variants";
 
 function Technologies() {
   const {
@@ -21,7 +23,12 @@ function Technologies() {
     next,
   } = techStackDetails;
   return (
-    <main className="container mx-auto max-width pt-10 pb-20 ">
+    <motion.main
+      variants={fadeInVariants("left", 0.1)}
+      initial="initial"
+      animate="animate"
+      className="container mx-auto max-width pt-10 pb-20 "
+    >
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
@@ -55,7 +62,7 @@ function Technologies() {
         <img src={npm} title="NPM" alt="NPM" />
         {/* <img src={postman} title="Postman" alt="Postman" /> */}
       </section>
-    </main>
+    </motion.main>
   );
 }
 

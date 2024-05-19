@@ -8,7 +8,7 @@ function About() {
   return (
     <motion.main
       className="container mx-auto max-width pt-10 pb-20 "
-      variants={fadeInVariants}
+      variants={fadeInVariants("left", 0.1)}
       initial="initial"
       animate="animate"
     >

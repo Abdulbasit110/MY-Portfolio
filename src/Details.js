@@ -29,6 +29,8 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
+import genius from "./assets/projects/genius.png";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -110,13 +112,13 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    title: "GENIUS",
+    image: genius,
+    description: `SAAS , AI SERVICES WEB APP`,
+    techstack:
+      "FULL STACK NEXTJS, TYPESCRIPT, TAILWIND, ZOD, SHADCN, NODEJS, MONGODB, MONGOOSE, HUGGING FACE API, CLERK",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Abdulbasit110/AI-SAAS",
   },
   {
     title: "Project title 2",
