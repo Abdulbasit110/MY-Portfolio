@@ -177,6 +177,7 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "abdulbasit4408944@gmail.com",
+  email1: "basit4408944@cloud.neduet.edu.pk",
+  email2: "abdulbasit4408944@gmail.com",
   phone: "+92 318-2820766",
 };
