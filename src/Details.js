@@ -21,6 +21,10 @@ import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 import next from "./assets/techstack/nextjs-icon.png";
 import firebase from "./assets/techstack/firebase.png.png";
+import mongodb from "./assets/techstack/mongodb.png";
+import express from "./assets/techstack/express.png";
+import nodejs from "./assets/techstack/nodejs.png";
+
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -30,6 +34,8 @@ import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
 import genius from "./assets/projects/genius.png";
+import askhubblog from "./assets/projects/askhubblog.png";
+import dashboard from "./assets/projects/dashboard.png";
 
 // Logos
 export const logos = {
@@ -107,6 +113,9 @@ export const techStackDetails = {
   figma: figma,
   next: next,
   firebase: firebase,
+  mongodb: mongodb,
+  nodejs: nodejs,
+  express: express,
 };
 
 // Enter your Project Details here
@@ -116,27 +125,26 @@ export const projectDetails = [
     image: genius,
     description: `SAAS , AI SERVICES WEB APP`,
     techstack:
-      "FULL STACK NEXTJS, TYPESCRIPT, TAILWIND, ZOD, SHADCN, NODEJS, MONGODB, MONGOOSE, HUGGING FACE API, CLERK",
-    previewLink: "https://google.com",
+      "Full stack next js, typescript, tailwind, zod, shadcn, nodejs, mongodb,mongoose, hugging face, clerk",
+    previewLink: "https://github.com/Abdulbasit110/AI-SAAS",
     githubLink: "https://github.com/Abdulbasit110/AI-SAAS",
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "AskHubBlog",
+    image: askhubblog,
+    description: `FUll stack bloging app.`,
+    techstack: "HTML/CSS, JavaScript , tailwind , firebase",
+    previewLink: "https://github.com/Abdulbasit110/AskHubBlog",
+    githubLink: "https://github.com/Abdulbasit110/AskHubBlog",
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Dashboard",
+    image: dashboard,
+    description: `Dashboard app`,
+    techstack:
+      "React js , tailwind css , AntDesign , typescript , nodejs ,  express , mysql , axios ",
+    previewLink: "https://github.com/Abdulbasit110/Dashboard",
+    githubLink: "https://github.com/Abdulbasit110/Dashboard",
   },
   {
     title: "Project title 4",

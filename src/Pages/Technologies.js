@@ -21,6 +21,9 @@ function Technologies() {
     figma,
     firebase,
     next,
+    mongodb,
+    nodejs,
+    express,
   } = techStackDetails;
   return (
     <motion.main
@@ -48,6 +51,9 @@ function Technologies() {
         <img src={sass} title="SASS" alt="" />
         <img src={next} title="NEXT JS" alt="" />
         <img src={firebase} title="FIREBASE" alt="" />
+        <img src={express} title="FIREBASE" alt="" />
+        <img src={mongodb} title="FIREBASE" alt="" />
+        <img src={nodejs} title="FIREBASE" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -60,7 +66,7 @@ function Technologies() {
         <img src={github} title="Github" alt="Github" />
         {/* <img src={figma} title="Figma" alt="Figma" /> */}
         <img src={npm} title="NPM" alt="NPM" />
-        {/* <img src={postman} title="Postman" alt="Postman" /> */}
+        <img src={postman} title="Postman" alt="Postman" />
       </section>
     </motion.main>
   );
