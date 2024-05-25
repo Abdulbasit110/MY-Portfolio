@@ -48,7 +48,10 @@ export const personalDetails = {
   name: "ABDUL BASIT",
   tagline: "I build things for web",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: ` High-achieving full-stack web developer with a strong academic record and expertise in modern technologies
+ like HTML, CSS, JS, Next.js, React.js, Node, Express, MongoDB, MySQL, Firebase, and REST API. Skilled in
+ Agile development, problem-solving, and collaboration, with experience in internship and university projects.
+ Recognized for academic excellence and leadership as an ACM NED brand ambassador`,
 };
 
 // Enter your Social Media URLs here
@@ -80,19 +83,19 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Position: "Bachelor in Computer Science",
+    Company: "NED University of Engineering & Technology",
+    Location: "Karachi",
+    Type: "Undergraduate",
+    Duration: "Sep 2021 - Present",
   },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
-  },
+  // {
+  //   Position: "Bachelor in Electronics & Communication",
+  //   Company: `Your College Name here`,
+  //   Location: "Bengaluru",
+  //   Type: "Full Time",
+  //   Duration: "Aug 2020 - Present",
+  // },
 ];
 
 // Tech Stack and Tools
