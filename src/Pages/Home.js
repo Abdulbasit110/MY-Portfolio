@@ -5,58 +5,7 @@ import { motion } from "framer-motion";
 import { fadeInVariants } from "../Variants";
 
 function Home() {
-  const { name, tagline, img } = personalDetails;
-  const h11 = useRef();
-  const h12 = useRef();
-  const h13 = useRef();
-  const myimageref = useRef();
-  useEffect(() => {
-    const tl = gsap.timeline();
-    tl.from(
-      h11.current,
-      {
-        x: "-100%",
-        delay: 0.8,
-        opacity: 0,
-        duration: 1,
-        ease: "Power3.easeOut",
-      },
-      "<"
-    )
-      .from(
-        h12.current,
-        {
-          x: "-100%",
-          delay: 0.5,
-          opacity: 0,
-          duration: 1,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      )
-      .from(
-        h13.current,
-        {
-          x: "-100%",
-          delay: 0.1,
-          opacity: 0,
-          duration: 1,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      )
-      .from(
-        myimageref.current,
-        {
-          x: "200%",
-          delay: 0.1,
-          opacity: 0,
-          duration: 1,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      );
-  }, []);
+  const { name, tagline } = personalDetails;
 
   return (
     <main className="container mx-auto max-width section md:flex justify-between items-center">

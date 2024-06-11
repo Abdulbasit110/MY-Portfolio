@@ -25,6 +25,7 @@ function Technologies() {
     nodejs,
     express,
     angular,
+    typescript,
   } = techStackDetails;
   return (
     <motion.main
@@ -45,6 +46,7 @@ function Technologies() {
         <img src={html} title="html" alt="html" />
         <img src={css} title="CSS" alt="css" />
         <img src={js} title="JavaScript" alt="JavaScript" />
+        <img src={typescript} title="Typescript" alt="typescript" />
         <img src={react} title="React" alt="react" />
         <img src={angular} title="FIREBASE" alt="angular" />
         <img src={redux} title="Redux" alt="redux" />

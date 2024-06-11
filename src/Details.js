@@ -25,21 +25,13 @@ import mongodb from "./assets/techstack/mongodb.png";
 import express from "./assets/techstack/express.png";
 import nodejs from "./assets/techstack/nodejs.png";
 import angular from "./assets/techstack/4373284_angular_logo_logos_icon.png";
+import typescript from "./assets/techstack/typescript.png";
 
 // Porject Images
-// import projectImage1 from "./assets/projects/project1.jpg";
-// import projectImage2 from "./assets/projects/project2.jpg";
-// import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
-
-// import genius from "./assets/projects/genius.png";
 import genius from "./assets/projects/Screenshot 2024-06-08 152456.png";
-// import askhubblog from "./assets/projects/askhubblog.png";
-// import dashboard from "./assets/projects/dashboard.png";
 import dashboard from "./assets/projects/Screenshot 2024-06-08 181855.png";
 import askHubBlog from "./assets/projects/ask hub blog.png";
+import devhire from "./assets/projects/DEVHIRE.png";
 
 // Logos
 export const logos = {
@@ -50,8 +42,8 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "ABDUL BASIT",
-  tagline: "I build things for web",
-  img: profile,
+  tagline: "I build amazing web apps",
+  // img: profile,
   about: ` High-achieving full-stack web developer with a strong academic record and expertise in modern technologies
  like HTML, CSS, JS, Next.js, React.js, Node, Express, MongoDB, MySQL, Firebase, and REST API. Skilled in
  Agile development, problem-solving, and collaboration, with experience in internship and university projects.
@@ -93,13 +85,33 @@ export const eduDetails = [
     Type: "Undergraduate",
     Duration: "Sep 2021 - Present",
   },
-  // {
-  //   Position: "Bachelor in Electronics & Communication",
-  //   Company: `Your College Name here`,
-  //   Location: "Bengaluru",
-  //   Type: "Full Time",
-  //   Duration: "Aug 2020 - Present",
-  // },
+];
+// certifications
+export const certifications = [
+  {
+    position: "Meta frontend developer",
+    company: "META - Coursera",
+    location: "karachi",
+    type: "online",
+  },
+  {
+    position: "Full stack developer MERN",
+    company: "Saylani Mass IT Training program",
+    location: "karachi",
+    type: "onsite",
+  },
+  {
+    position: "Cloud computing",
+    company: "IBM - Coursera",
+    location: "karachi",
+    type: "online",
+  },
+  {
+    position: "Technical Domain",
+    company: "National Freelance Training Program - NFTP",
+    location: "karachi",
+    type: "online",
+  },
 ];
 
 // Tech Stack and Tools
@@ -124,6 +136,7 @@ export const techStackDetails = {
   nodejs: nodejs,
   express: express,
   angular: angular,
+  typescript: typescript,
 };
 
 // Enter your Project Details here
@@ -136,6 +149,8 @@ export const projectDetails = [
       "Full stack Next js, typescript, tailwind, zod, zustand, shadcn, nodejs, mongodb, mongoose, huggingFace, clerk, firebase, replicate ai, pusherJs",
     previewLink: "https://ai-saas-nine-zeta.vercel.app/",
     githubLink: "https://github.com/Abdulbasit110/AI-SAAS",
+    // direction: "left",
+    // time: 0.1,
   },
   {
     title: "AskHubBlog",
@@ -144,6 +159,8 @@ export const projectDetails = [
     techstack: "HTML/CSS, JavaScript , tailwind , firebase",
     previewLink: "https://ask-hub-blog-beta.vercel.app/",
     githubLink: "https://github.com/Abdulbasit110/AskHubBlog",
+    // direction: "left",
+    // time: 0.1,
   },
   {
     title: "Dashboard",
@@ -153,33 +170,18 @@ export const projectDetails = [
       "React js, tailwind css, AntDesign, typescript, nodejs,  express, mysql, axios, socket.io",
     previewLink: "https://github.com/Abdulbasit110/Dashboard",
     githubLink: "https://github.com/Abdulbasit110/Dashboard",
+    // direction: "left",
+    // time: 0.1,
   },
   {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "DEVHIRE",
+    image: devhire,
+    description: `Ultimate talent hiring web app`,
+    techstack: "HTML/CSS, JavaScript, tailwind css",
+    previewLink: "https://abdulbasit110.github.io/DevHire-/",
+    githubLink: "https://github.com/Abdulbasit110/DevHire-",
+    // direction: "left",
+    // time: 0.1,
   },
 ];
 

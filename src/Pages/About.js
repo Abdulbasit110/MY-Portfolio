@@ -1,6 +1,11 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, workDetails, eduDetails } from "../Details";
+import {
+  personalDetails,
+  workDetails,
+  eduDetails,
+  certifications,
+} from "../Details";
 import { motion } from "framer-motion";
 import { fadeInVariants } from "../Variants";
 
@@ -48,6 +53,21 @@ function About() {
               location={Location}
               type={Type}
               duration={Duration}
+            />
+          ))
+        )}
+      </section>
+      <section>
+        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Certifications
+        </h1>
+        {React.Children.toArray(
+          certifications.map(({ position, company, location, type }) => (
+            <Work
+              position={position}
+              company={company}
+              location={location}
+              type={type}
             />
           ))
         )}
