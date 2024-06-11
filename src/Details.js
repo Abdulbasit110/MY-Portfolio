@@ -24,11 +24,12 @@ import firebase from "./assets/techstack/firebase.png.png";
 import mongodb from "./assets/techstack/mongodb.png";
 import express from "./assets/techstack/express.png";
 import nodejs from "./assets/techstack/nodejs.png";
+import angular from "./assets/techstack/4373284_angular_logo_logos_icon.png";
 
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
+// import projectImage1 from "./assets/projects/project1.jpg";
+// import projectImage2 from "./assets/projects/project2.jpg";
+// import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
@@ -122,6 +123,7 @@ export const techStackDetails = {
   mongodb: mongodb,
   nodejs: nodejs,
   express: express,
+  angular: angular,
 };
 
 // Enter your Project Details here
