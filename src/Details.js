@@ -33,9 +33,12 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
-import genius from "./assets/projects/genius.png";
-import askhubblog from "./assets/projects/askhubblog.png";
-import dashboard from "./assets/projects/dashboard.png";
+// import genius from "./assets/projects/genius.png";
+import genius from "./assets/projects/Screenshot 2024-06-08 152456.png";
+// import askhubblog from "./assets/projects/askhubblog.png";
+// import dashboard from "./assets/projects/dashboard.png";
+import dashboard from "./assets/projects/Screenshot 2024-06-08 181855.png";
+import askHubBlog from "./assets/projects/ask hub blog.png";
 
 // Logos
 export const logos = {
@@ -128,16 +131,16 @@ export const projectDetails = [
     image: genius,
     description: `SAAS , AI SERVICES WEB APP`,
     techstack:
-      "Full stack next js, typescript, tailwind, zod, shadcn, nodejs, mongodb,mongoose, hugging face, clerk",
-    previewLink: "https://github.com/Abdulbasit110/AI-SAAS",
+      "Full stack Next js, typescript, tailwind, zod, zustand, shadcn, nodejs, mongodb, mongoose, huggingFace, clerk, firebase, replicate ai, pusherJs",
+    previewLink: "https://ai-saas-nine-zeta.vercel.app/",
     githubLink: "https://github.com/Abdulbasit110/AI-SAAS",
   },
   {
     title: "AskHubBlog",
-    image: askhubblog,
+    image: askHubBlog,
     description: `FUll stack bloging app.`,
     techstack: "HTML/CSS, JavaScript , tailwind , firebase",
-    previewLink: "https://github.com/Abdulbasit110/AskHubBlog",
+    previewLink: "https://ask-hub-blog-beta.vercel.app/",
     githubLink: "https://github.com/Abdulbasit110/AskHubBlog",
   },
   {
@@ -145,7 +148,7 @@ export const projectDetails = [
     image: dashboard,
     description: `Dashboard app`,
     techstack:
-      "React js , tailwind css , AntDesign , typescript , nodejs ,  express , mysql , axios ",
+      "React js, tailwind css, AntDesign, typescript, nodejs,  express, mysql, axios, socket.io",
     previewLink: "https://github.com/Abdulbasit110/Dashboard",
     githubLink: "https://github.com/Abdulbasit110/Dashboard",
   },
