@@ -42,20 +42,20 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={html} title="html" alt="" />
-        <img src={css} title="CSS" alt="" />
-        <img src={js} title="JavaScript" alt="" />
-        <img src={react} title="React" alt="" />
-        <img src={angular} title="FIREBASE" alt="" />
-        <img src={redux} title="Redux" alt="" />
-        <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={bootstrap} title="Bootstrap" alt="" />
-        <img src={sass} title="SASS" alt="" />
-        <img src={next} title="NEXT JS" alt="" />
-        <img src={firebase} title="FIREBASE" alt="" />
-        <img src={express} title="FIREBASE" alt="" />
-        <img src={mongodb} title="FIREBASE" alt="" />
-        <img src={nodejs} title="FIREBASE" alt="" />
+        <img src={html} title="html" alt="html" />
+        <img src={css} title="CSS" alt="css" />
+        <img src={js} title="JavaScript" alt="JavaScript" />
+        <img src={react} title="React" alt="react" />
+        <img src={angular} title="FIREBASE" alt="angular" />
+        <img src={redux} title="Redux" alt="redux" />
+        <img src={tailwind} title="Tailwind CSS" alt="tailwind" />
+        <img src={bootstrap} title="Bootstrap" alt="bootstrap" />
+        <img src={sass} title="SASS" alt="sass" />
+        <img src={next} title="NEXT JS" alt="next" />
+        <img src={firebase} title="FIREBASE" alt="firebase" />
+        <img src={express} title="FIREBASE" alt="express" />
+        <img src={mongodb} title="FIREBASE" alt="mongodb'" />
+        <img src={nodejs} title="FIREBASE" alt="nodejs" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
