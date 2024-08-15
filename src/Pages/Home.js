@@ -1,7 +1,7 @@
-import React, { useRef, useEffect } from "react";
-import gsap from "gsap";
-import { personalDetails } from "../Details";
+import React from "react";
 import { motion } from "framer-motion";
+import { ReactTyped } from "react-typed";
+import { personalDetails } from "../Details";
 import { fadeInVariants } from "../Variants";
 
 function Home() {
@@ -15,25 +15,25 @@ function Home() {
         animate="animate"
       >
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Hi,👋<br></br>My Name is<br></br>
+          Hey,👋<br></br>My Name is<br></br>
         </h1>
-        <h1 className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          {name}
-        </h1>
-        <h2 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          {tagline}
-        </h2>
+        <div className="typed-container">
+          <ReactTyped
+            strings={[
+              `<span class="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold">${name}</span><br/><span class="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">${tagline}</span>`,
+            ]}
+            typeSpeed={50}
+            backSpeed={30}
+            loop
+            showCursor={true}
+            cursorChar="|"
+            html={true}
+          />
+        </div>
       </motion.div>
       <div className="mt-5 md:mt-0">
-        {/* <img
-          ref={myimageref}
-          className="w-1/2 md:ml-auto rounded-full bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
-          src={img}
-          alt="ABDUL BASIT"
-        /> */}
-
         <motion.div
-          class="blob"
+          className="blob"
           variants={fadeInVariants("right", 0.5)}
           initial="initial"
           animate="animate"

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 function Project({
   title,
   image,
@@ -7,10 +7,16 @@ function Project({
   techstack,
   previewLink,
   githubLink,
+  variants,
 }) {
   return (
-    <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900 hover:shadow-sm hover:scale-105 transition-all ease-out">
-      <div className="h-64 w-auto object-cover">
+    <motion.article
+      variants={variants}
+      initial="initial"
+      animate="animate"
+      className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900 hover:shadow-sm transition-all ease-out "
+    >
+      <div className="h-64 w-auto object-cover hover:opacity-50 transition-all">
         <img
           src={image}
           alt={description}
@@ -86,7 +92,7 @@ function Project({
           </div>
         </div>
       </div>
-    </article>
+    </motion.article>
   );
 }
 

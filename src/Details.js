@@ -32,6 +32,11 @@ import genius from "./assets/projects/Screenshot 2024-06-08 152456.png";
 import dashboard from "./assets/projects/Screenshot 2024-06-08 181855.png";
 import askHubBlog from "./assets/projects/ask hub blog.png";
 import devhire from "./assets/projects/DEVHIRE.png";
+import assignment from "./assets/projects/assignmentSubmission.png";
+import gallery from "./assets/projects/imageGallery.png";
+import hairday from "./assets/projects/hairday.png";
+import stopwatch from "./assets/projects/stopwatch.png";
+import todo from "./assets/projects/todo.png";
 
 // Logos
 export const logos = {
@@ -139,18 +144,31 @@ export const techStackDetails = {
   typescript: typescript,
 };
 
+const time = 0.3;
 // Enter your Project Details here
 export const projectDetails = [
   {
     title: "GENIUS",
     image: genius,
-    description: `SAAS , AI SERVICES WEB APP`,
+    description: `SAAS, AI SERVICES WEB APP, generate text, images, audio, video, code`,
     techstack:
       "Full stack Next js, typescript, tailwind, zod, zustand, shadcn, nodejs, mongodb, mongoose, huggingFace, clerk, firebase, replicate ai, pusherJs",
     previewLink: "https://ai-saas-nine-zeta.vercel.app/",
     githubLink: "https://github.com/Abdulbasit110/AI-SAAS",
-    // direction: "left",
-    // time: 0.1,
+    direction: "left",
+    time,
+  },
+  {
+    title: "Assignment submission portal",
+    image: assignment,
+    description: `Web app that streamlines the process of assignment submission, management and evaluation `,
+    techstack:
+      "Reactjs, nodejs, expressjs, jwt, antdesign, tailwindCss, axios, mongodb, mongoose",
+    previewLink: "https://assignment-submission-portal-frontend.vercel.app/",
+    githubLink:
+      "https://github.com/Abdulbasit110/Assignment-Submission-Portal-Frontend-/tree/main",
+    direction: "left",
+    time,
   },
   {
     title: "AskHubBlog",
@@ -159,29 +177,69 @@ export const projectDetails = [
     techstack: "HTML/CSS, JavaScript , tailwind , firebase",
     previewLink: "https://ask-hub-blog-beta.vercel.app/",
     githubLink: "https://github.com/Abdulbasit110/AskHubBlog",
-    // direction: "left",
-    // time: 0.1,
+    direction: "left",
+    time,
   },
   {
-    title: "Dashboard",
+    title: "Full stack dashboard",
     image: dashboard,
-    description: `Dashboard app`,
+    description: `Dashboard app tracking radio waves in realtime and showing charts on the frontend`,
     techstack:
       "React js, tailwind css, AntDesign, typescript, nodejs,  express, mysql, axios, socket.io",
     previewLink: "https://github.com/Abdulbasit110/Dashboard",
     githubLink: "https://github.com/Abdulbasit110/Dashboard",
-    // direction: "left",
-    // time: 0.1,
+    direction: "right",
+    time,
   },
   {
     title: "DEVHIRE",
     image: devhire,
-    description: `Ultimate talent hiring web app`,
+    description: `Ultimate talent hiring web app, now hire developers `,
     techstack: "HTML/CSS, JavaScript, tailwind css",
     previewLink: "https://abdulbasit110.github.io/DevHire-/",
     githubLink: "https://github.com/Abdulbasit110/DevHire-",
-    // direction: "left",
-    // time: 0.1,
+    direction: "right",
+    time,
+  },
+  {
+    title: "Image gallery using cloudinary and nextjs",
+    image: gallery,
+    description: `Image gallery where we can manifest our albums`,
+    techstack: "nextjs,tailwind css, cloudinary",
+    previewLink: "https://image-gallery-starter-six-gamma-99.vercel.app/",
+    githubLink: "https://image-gallery-starter-six-gamma-99.vercel.app/",
+    direction: "right",
+    time,
+  },
+  {
+    title: "Hair Day Saloon",
+    image: hairday,
+    description: `Website of luxury futuristic spa`,
+    techstack: "HTML, CSS, JS, animation",
+    previewLink: "https://abdulbasit110.github.io/HAIR-DAY-SALOON/",
+    githubLink: "https://github.com/Abdulbasit110/HAIR-DAY-SALOON",
+    direction: "left",
+    time,
+  },
+  {
+    title: "JS stop watch",
+    image: stopwatch,
+    description: "stop watch web app using vanilla js",
+    techstack: "HTML, CSS, JS, animation",
+    previewLink: "https://js-tailwind-stop-watch.vercel.app/",
+    githubLink: "https://github.com/Abdulbasit110/JS-TAILWIND-STOP-WATCH",
+    direction: "left",
+    time,
+  },
+  {
+    title: "Happy Todo",
+    image: todo,
+    description: "todo web app using vanilla js",
+    techstack: "HTML, CSS, JS, animation",
+    previewLink: "https://abdulbasit110.github.io/TODO-JS/",
+    githubLink: "https://github.com/Abdulbasit110/TODO-JS",
+    direction: "left",
+    time,
   },
 ];
 

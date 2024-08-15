@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../Details";
+import { fadeInVariants } from "../Variants";
 
 function Projects() {
   return (
@@ -19,8 +20,11 @@ function Projects() {
                 techstack,
                 previewLink,
                 githubLink,
+                time,
+                direction,
               }) => (
                 <Project
+                  variants={fadeInVariants(direction, time)}
                   title={title}
                   image={image}
                   description={description}
