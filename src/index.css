@@ -20,6 +20,7 @@
 }
 body {
   overflow-x: hidden;
+  color: white;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
