@@ -17,7 +17,7 @@ function Header() {
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
-            className="stroke-dark-heading dark:stroke-white md:hidden"
+            className=" stroke-white md:hidden"
             width="25"
             height="20"
             viewBox="0 0 16 13"
@@ -83,7 +83,7 @@ function Header() {
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-light-heading"
+                className="fill-light-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
