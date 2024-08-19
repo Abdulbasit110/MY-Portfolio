@@ -97,7 +97,7 @@ function Header() {
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-light-heading"
+                className="fill-light-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
