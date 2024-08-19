@@ -35,10 +35,10 @@ function Technologies() {
       className="container mx-auto max-width pt-10 pb-20 "
     >
       <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl  text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
         </h1>
-        <p className="text-content py-2 lg:max-w-3xl">
+        <p className=" py-2 lg:max-w-3xl opacity-80">
           Technologies I've been working with recently
         </p>
       </section>
@@ -60,7 +60,7 @@ function Technologies() {
         <img src={nodejs} title="FIREBASE" alt="nodejs" />
       </section>
       <section>
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl pt-10  dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tools
         </h1>
       </section>

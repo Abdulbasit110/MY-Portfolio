@@ -14,13 +14,13 @@ function Home() {
         initial="initial"
         animate="animate"
       >
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl  dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Hey,👋<br></br>My Name is<br></br>
         </h1>
         <div className="typed-container">
           <ReactTyped
             strings={[
-              `<span class="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold">${name}</span><br/><span class="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">${tagline}</span>`,
+              `<span class="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold">${name}</span><br/><span class="text-2xl  dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">${tagline}</span>`,
             ]}
             typeSpeed={50}
             backSpeed={30}
