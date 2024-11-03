@@ -49,10 +49,13 @@ export const personalDetails = {
   name: "ABDUL BASIT",
   tagline: "I build amazing web apps",
   // img: profile,
-  about: ` High-achieving full-stack web developer with a strong academic record and expertise in modern technologies
- like HTML, CSS, JS, Next.js, React.js, Node, Express, MongoDB, MySQL, Firebase, and REST API. Skilled in
- Agile development, problem-solving, and collaboration, with experience in internship and university projects.
- Recognized for academic excellence and leadership as an ACM NED brand ambassador`,
+  about: `Experienced Full Stack Developer with a strong foundation in modern web technologies and industry
+experience. Proficient in HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Node.js, ExpressJS, and
+database management (MongoDB, MySQL, PostgreSQL). Skilled in RESTful API development, Firebase
+integration, and working with large language models (LLMs) for AI applications. Expertise in Agile
+methodologies, problem-solving, and cross-functional collaboration. Recognized for academic excellence and
+leadership as an ACM NED brand ambassador. Passionate about building efficient, scalable web applications
+and continuously expanding technical skills`,
 };
 
 // Enter your Social Media URLs here
@@ -66,18 +69,25 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Engineer Intern",
-    Company: `RS softwire`,
-    Location: "karachi",
-    Type: "Internship",
-    Duration: "Jun 2023 - Dec 2023",
+    Position: "Full Stack Developer Web/App",
+    Company: `Askari Technologies`,
+    Location: "Karachi",
+    Type: "Full Time",
+    Duration: "August 2024 - Present",
   },
   {
     Position: "Web Development Internship",
     Company: `NCL-Ned`,
     Location: "NED , Karachi",
     Type: "Internship",
-    Duration: "march 2024 - Continue",
+    Duration: "March 2024 - May 2024",
+  },
+  {
+    Position: "Frontend Engineer Intern",
+    Company: `RS softwire`,
+    Location: "karachi",
+    Type: "Internship",
+    Duration: "Jun 2023 - Dec 2023",
   },
 ];
 
